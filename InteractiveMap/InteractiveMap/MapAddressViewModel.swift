@@ -29,7 +29,7 @@ class MapAddressViewModel: ObservableObject {
                     case .zipCode:
                         newSpan = MKCoordinateSpan(latitudeDelta: 1.0, longitudeDelta: 1.0)
                     case .country:
-                        newSpan = MKCoordinateSpan(latitudeDelta: 40.0, longitudeDelta: 40.0)
+                        newSpan = MKCoordinateSpan(latitudeDelta: 45.0, longitudeDelta: 47.0)
                     }
                     
                     self.region = MapCameraPosition.region (MKCoordinateRegion(

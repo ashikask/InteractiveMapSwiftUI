@@ -15,7 +15,7 @@ struct RegularView: View {
     @Binding var selectedLocation: LocationType?
     @Binding var showPopover: Bool
     @ObservedObject var viewmodel: MapAddressViewModel
-    
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         HStack(spacing: 40) {
             VStack {
@@ -29,6 +29,7 @@ struct RegularView: View {
             MapOrImageView(showDetailView: $showDetailView, region: $region, mapCoordinate: $mapCoordinate, selectedLocation: $selectedLocation)
                
                 .frame(width: UIScreen.main.bounds.width * 0.6 , height: UIScreen.main.bounds.height)
+                .padding(.bottom, horizontalSizeClass == .compact ? 8 : -12)
         }
     }
 }
