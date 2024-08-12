@@ -45,6 +45,10 @@ Selecting any of these components will focus the map or imagery on that particul
    ```
 3. Build and run the project in Xcode.
 
+## Credits
+- **Design Inspiration:** Kumail Nanji - [Refer to his UX design](https://x.com/i/bookmarks?post_id=1820798659291648418) for interactive map ideas and inspiration.
+
+
 ## Contributing
 
 If you want to contribute to this project, feel free to submit a pull request or open an issue. Your contributions are welcome!
