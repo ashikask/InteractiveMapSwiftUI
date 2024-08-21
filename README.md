@@ -24,6 +24,7 @@ Selecting any of these components will focus the map or imagery on that particul
 
 
 ## Screenshots
+<img width="1440" alt="Screenshot 2024-08-12 at 5 33 24 PM" src="https://github.com/user-attachments/assets/1d1b4f36-3fca-40a4-829b-94404c9b62f8">
 
 
 ## Requirements
